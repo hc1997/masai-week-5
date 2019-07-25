@@ -1,0 +1,101 @@
+body
+{
+    /* background-image: url(images/1.jpg); */
+    background-color: black;    
+}
+@media (max-width: 960px){
+    body
+    {
+        background-color: red;
+    }
+}
+
+.navbar
+{
+	background-color: black;
+	overflow: hidden;
+}
+
+a
+{
+    text-decoration: none;
+	float: right;
+	color:white ;
+	font-size: 20px;
+	padding: 15px 17px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.logo
+{
+	float: left;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+}
+#genrehead
+{
+    color: white
+}
+
+input
+{
+    width: 300px;
+    padding: 15px;
+    margin-left: 100px;
+    margin-top: 90px;
+    border: 2px solid white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    background-color: black;
+    color: white;	
+}
+
+.drop
+{
+    width: 300px;
+    padding: 15px;
+    margin-left: 100px;
+    margin-top: 90px;
+    border: 2px solid white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    background-color: black;
+    color: white;   
+}
+
+.submit_btn
+{
+   	width: 50px;
+   	height: 50px;
+    margin-left: -5px;
+    background-color: black;
+    color:white;
+    font-size: 30px;
+    margin-top:0px;
+    border: 3px solid black;
+}
+
+.grid_box
+{
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(auto-fill,350px);
+}
+
+.grid_box > div
+{
+    border:1px solid black;
+    background-color: white;
+}
+
+h3,p
+{
+    color: purple;
+    font-family: 'Carter One', cursive;
+}
+@media (min-width: 740px){
+    h3,p{
+        color: darkorange;
+
+    }
+}
